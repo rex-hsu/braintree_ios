@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.documentation_url = "https://developer.paypal.com/braintree/docs/start/hello-client"
   s.license          = "MIT"
   s.author           = { "Braintree" => "team-bt-sdk@paypal.com" }
-  s.source           = { :git => "git@github.com:rex-hsu/braintree_ios.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:alivecor/braintree_ios.git", :tag => s.version.to_s }
 
   s.platform         = :ios, "12.0"
   s.compiler_flags   = "-Wall -Werror -Wextra"
